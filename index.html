@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23D2A584'%3E%3Cpolygon points='12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2'/%3E%3C/svg%3E"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KAMI SPICES - Premium Spice Distributor</title>
+    <meta
+      name="description"
+      content="A luxurious and cinematic website for KAMI SPICES, a premium distributor of high-quality spices."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Inter:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              copper: "#D2A584",
+              "copper-light": "#E6C8A8",
+              "brand-dark": "#0A0A0A",
+            },
+            fontFamily: {
+              serif: ["Cormorant Garamond", "serif"],
+              sans: ["Inter", "sans-serif"],
+            },
+            boxShadow: {
+              "glow-white": "0 0 20px rgba(255, 255, 255, 0.15)",
+              "glow-copper": "0 0 30px rgba(210, 165, 132, 0.7)",
+            },
+            keyframes: {
+              fadeIn: {
+                "0%": { opacity: 0 },
+                "100%": { opacity: 1 },
+              },
+              fadeOut: {
+                "0%": { opacity: 1 },
+                "100%": { opacity: 0 },
+              },
+              logoAnimateOut: {
+                "0%": {
+                  opacity: 1,
+                  transform: "scale(1)",
+                  filter: "brightness(1) drop-shadow(0 0 0px transparent)",
+                },
+                "20%": {
+                  filter: "brightness(2.5) drop-shadow(0 0 25px #E6C8A8)",
+                },
+                "40%": {
+                  opacity: 1,
+                  transform: "scale(1)",
+                  filter: "brightness(1) drop-shadow(0 0 0px transparent)",
+                },
+                "100%": { opacity: 0, transform: "scale(0.5)" },
+              },
+              textAnimateOut: {
+                "0%": { opacity: 1, transform: "scale(1)" },
+                "40%": { opacity: 1, transform: "scale(1)" },
+                "100%": { opacity: 0, transform: "scale(0.5)" },
+              },
+              twinkle: {
+                "0%, 100%": { opacity: 0.2 },
+                "50%": { opacity: 1 },
+              },
+              "meteor-animation": {
+                "0%": {
+                  opacity: 0,
+                  transform: "translate(0, 0)",
+                },
+                "5%": {
+                  opacity: 1,
+                },
+                "95%": {
+                  opacity: 1,
+                },
+                "100%": {
+                  opacity: 0,
+                  transform: "translate(-600px, 600px)",
+                },
+              },
+            },
+            animation: {
+              fadeIn: "fadeIn 1s ease-in-out forwards",
+              fadeOut: "fadeOut 1s ease-in-out forwards",
+              logoAnimateOut: "logoAnimateOut 5s ease-in-out forwards",
+              textAnimateOut: "textAnimateOut 5s ease-in-out forwards",
+            },
+            backgroundImage: {
+              "copper-gradient-full":
+                "linear-gradient(to right, #0A0A0A, #5C3E2A, #D2A584, #E6C8A8, #D2A584, #5C3E2A, #0A0A0A)",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      body {
+        background-color: #000;
+        color: #d2a584;
+        padding: 1rem;
+      }
+      .copper-gradient-text {
+        background: linear-gradient(90deg, #e6c8a8, #d2a584);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+      }
+      .copper-gradient-bar {
+        background: linear-gradient(
+          to right,
+          #0a0a0a,
+          #5c3e2a,
+          #d2a584,
+          #e6c8a8,
+          #d2a584,
+          #5c3e2a,
+          #0a0a0a
+        );
+      }
+      .copper-border-gradient {
+        border-image-slice: 1;
+        border-image-source: linear-gradient(
+          to right,
+          #2a1a0f,
+          #d2a584,
+          #2a1a0f
+        );
+      }
+      .mobile-nav-active::after {
+        content: "";
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: #e6c8a8;
+        transform: scaleX(1);
+        transform-origin: left;
+        transition: transform 0.3s ease-in-out;
+      }
+      .mobile-nav-inactive::after {
+        content: "";
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: #e6c8a8;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.3s ease-in-out;
+      }
+      .mobile-nav-inactive:hover::after {
+        transform: scaleX(1);
+      }
+      .product-card-frame::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        z-index: 1;
+        background-image: linear-gradient(
+            to bottom right,
+            rgba(210, 165, 132, 0.15),
+            transparent 40%
+          ),
+          linear-gradient(
+            to top left,
+            rgba(210, 165, 132, 0.15),
+            transparent 40%
+          );
+        opacity: 0;
+        transition: opacity 0.4s ease-in-out;
+      }
+      .group:hover .product-card-frame::before {
+        opacity: 1;
+      }
+
+      /* --- INTRO SCREEN ANIMATIONS (REVISED) --- */
+      .stars,
+      .stars2,
+      .stars3 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 1px;
+        height: 1px;
+        background: transparent;
+      }
+
+      .stars {
+        animation: twinkle 7s infinite linear;
+        box-shadow: 788px 1018px #fff, 1500px 182px #fff, 1530px 532px #fff,
+          621px 196px #fff, 1820px 819px #fff, 1421px 111px #fff,
+          1269px 952px #fff, 1780px 147px #fff, 1493px 859px #fff,
+          1515px 125px #fff, 549px 929px #fff, 219px 707px #fff,
+          1217px 759px #fff, 719px 400px #fff, 1704px 584px #fff,
+          1024px 311px #fff, 1517px 88px #fff, 936px 902px #fff, 582px 58px #fff,
+          1137px 463px #fff, 529px 714px #fff, 999px 233px #fff,
+          888px 843px #fff, 1135px 299px #fff, 1948px 58px #fff,
+          1403px 432px #fff, 34px 55px #fff, 1261px 738px #fff, 183px 343px #fff,
+          893px 450px #fff, 1318px 57px #fff, 1184px 30px #fff,
+          1698px 973px #fff, 1607px 387px #fff, 1584px 92px #fff,
+          1492px 76px #fff, 1373px 314px #fff, 1507px 11px #fff,
+          1205px 235px #fff, 35px 522px #fff;
+      }
+
+      .stars2 {
+        animation: twinkle 10s infinite linear;
+        box-shadow: 1974px 505px #fff, 148px 852px #fff, 108px 609px #fff,
+          1650px 717px #fff, 104px 446px #fff, 103px 364px #fff,
+          1354px 938px #fff, 252px 976px #fff, 1603px 421px #fff,
+          185px 689px #fff, 1604px 348px #fff, 1119px 589px #fff,
+          1379px 658px #fff, 1445px 339px #fff, 1588px 38px #fff,
+          1726px 899px #fff, 196px 878px #fff, 597px 298px #fff,
+          1093px 48px #fff, 1102px 868px #fff, 1200px 337px #fff,
+          1055px 947px #fff, 1478px 895px #fff, 977px 119px #fff,
+          1009px 632px #fff, 53px 512px #fff, 1520px 48px #fff,
+          1295px 147px #fff, 730px 45px #fff, 171px 230px #fff, 622px 941px #fff,
+          1177px 62px #fff, 1693px 384px #fff, 1474px 304px #fff,
+          1310px 490px #fff, 483px 803px #fff, 1007px 774px #fff,
+          214px 767px #fff, 1443px 486px #fff, 1832px 530px #fff;
+      }
+
+      .stars3 {
+        animation: twinkle 14s infinite linear;
+        box-shadow: 104px 18px #fff, 1326px 37px #fff, 1528px 456px #fff,
+          1494px 933px #fff, 1332px 330px #fff, 1746px 610px #fff,
+          513px 443px #fff, 1812px 146px #fff, 1481px 751px #fff,
+          508px 715px #fff, 130px 843px #fff, 893px 937px #fff, 106px 729px #fff,
+          1316px 209px #fff, 1891px 956px #fff, 1789px 839px #fff,
+          1845px 238px #fff, 1018px 744px #fff, 1251px 722px #fff,
+          24px 747px #fff, 1100px 881px #fff, 292px 904px #fff,
+          1934px 561px #fff, 1083px 666px #fff, 1153px 407px #fff,
+          1419px 730px #fff, 1243px 260px #fff, 1428px 707px #fff,
+          78px 108px #fff, 552px 402px #fff, 1242px 791px #fff, 459px 920px #fff,
+          1819px 667px #fff, 738px 230px #fff, 1400px 791px #fff,
+          1553px 264px #fff, 1450px 30px #fff, 1289px 230px #fff,
+          149px 238px #fff, 1509px 809px #fff;
+      }
+
+      .meteor {
+        position: absolute;
+        width: 3px;
+        height: 3px;
+        background: #fff;
+        border-radius: 50%;
+        box-shadow: 0 0 8px 2px rgba(255, 255, 255, 0.7);
+        animation-name: meteor-animation;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+      }
+      .meteor::before {
+        content: "";
+        position: absolute;
+        width: 300px;
+        height: 1px;
+        background: linear-gradient(
+          to right,
+          rgba(255, 255, 255, 0.7),
+          transparent
+        );
+        transform: rotate(-45deg) translateX(150px);
+        transform-origin: center center;
+        right: 0;
+        top: 1px;
+      }
+    </style>
+    <script type="importmap">
+      {
+        "imports": {
+          "react/": "https://aistudiocdn.com/react@^19.2.0/",
+          "react": "https://aistudiocdn.com/react@^19.2.0",
+          "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script defer src="bundle.js"></script>
+  </body>
+</html>
