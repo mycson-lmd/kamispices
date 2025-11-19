@@ -79,17 +79,27 @@ const ChevronRightIcon = () => (
   </svg>
 );
 
-// New embedded SVG Logo Component
-export const LogoIcon = ({ className }: { className?: string }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 24 24"
-    fill="currentColor"
-    className={`text-copper ${className}`}
-  >
-    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-  </svg>
-);
+// Modified LogoIcon to use hosted images
+export const LogoIcon = ({
+  className,
+  variant = "header",
+}: {
+  className?: string;
+  variant?: "header" | "intro";
+}) => {
+  const src =
+    variant === "intro"
+      ? "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/intro/logo-main.png"
+      : "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/intro/logo-header.png";
+
+  return (
+    <img
+      src={src}
+      alt="KAMI SPICES"
+      className={`object-contain ${className}`}
+    />
+  );
+};
 
 export const Icon: React.FC<{ name: string; className?: string }> = ({
   name,
@@ -547,7 +557,7 @@ export const Header: React.FC<HeaderProps> = ({
     <header className="relative copper-gradient-bar rounded-t-2xl py-3 px-4 sm:px-8 md:px-12 z-40">
       <div className="container mx-auto flex justify-between items-center">
         <button onClick={onLogoClick} className="flex items-center gap-4 group">
-          <LogoIcon className="h-10 w-10 transition-all duration-300 group-hover:scale-110 group-hover:drop-shadow-[0_0_8px_rgba(205,127,50,0.7)]" />
+          <LogoIcon className="h-10 w-auto max-w-[150px] transition-all duration-300 group-hover:scale-105 group-hover:drop-shadow-[0_0_8px_rgba(205,127,50,0.7)]" />
           <span className="text-xl sm:text-2xl font-serif font-bold tracking-widest text-[#D2A584] transition-transform group-hover:scale-105 [text-shadow:-1px_0_0_black,1px_0_0_black,0_-1px_0_black,0_1px_0_black,2px_2px_4px_rgba(0,0,0,0.8)]">
             KAMI SPICES
           </span>

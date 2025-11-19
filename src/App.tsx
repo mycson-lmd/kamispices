@@ -31,9 +31,9 @@ type Page = "home" | "about" | "products" | "blog" | "contact";
 // Pastikan file video Anda (misalnya, "hero-video.mp4") berada di dalam folder /assets
 // ===================================================================================
 const HERO_VIDEO_URL =
-  "https://videos.pexels.com/video-files/3254005/3254005-hd_1920_1080_25fps.mp4";
+  "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/intro/video-hero.mp4";
 const FALLBACK_IMAGE_URL =
-  "https://images.pexels.com/photos/1392585/pexels-photo-1392585.jpeg?auto=compress&cs=tinysrgb&w=1920";
+  "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/intro/hero-main.png";
 
 // --- Page Components ---
 
@@ -43,6 +43,7 @@ const IntroScreen: React.FC<{
 }> = ({ tagline, onAnimationComplete }) => {
   const [isAnimatingOut, setIsAnimatingOut] = useState(false);
   const animationTriggered = useRef(false);
+  // FIX: Use `number` for setTimeout return type in browser environments instead of `NodeJS.Timeout`.
   const timeoutRef = useRef<number | null>(null);
 
   const triggerAnimation = () => {
@@ -134,7 +135,8 @@ const IntroScreen: React.FC<{
       {/* Content */}
       <div className="relative z-10 text-center">
         <LogoIcon
-          className={`w-28 h-28 mx-auto mb-4 ${
+          variant="intro"
+          className={`w-40 h-auto mx-auto mb-6 ${
             isAnimatingOut ? "animate-logoAnimateOut" : ""
           }`}
         />
@@ -797,6 +799,7 @@ const App: React.FC = () => {
 
   const currentContent = contentData[language];
 
+  // SEO Effect
   useEffect(() => {
     let seo;
     switch (page) {
