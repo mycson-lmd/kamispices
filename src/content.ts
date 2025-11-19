@@ -73,7 +73,7 @@ const contentData: Record<Language, Content> = {
         listItem3:
           "Penghormatan terhadap Alam dan Manusia: Kami membangun kemitraan yang adil dengan para petani lokal, menjaga kelestarian alam, dan merayakan komunitas yang menjadi tulang punggung warisan ini.",
         image:
-          "https://images.pexels.com/photos/725997/pexels-photo-725997.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/about/about.png",
       },
       section2: {
         visionTitle: "Visi Kami",
@@ -407,7 +407,7 @@ const contentData: Record<Language, Content> = {
         details: [
           "Asal: Sumatera Utara, Indonesia",
           "Tingkat Kualitas: Premium Green",
-          "Aroma: Kompleks, manis, floral",
+          "Aroma: Complex, sweet, floral",
           "Penggunaan: Kopi Arab, biryani, hidangan penutup",
         ],
       },
@@ -575,8 +575,9 @@ const contentData: Record<Language, Content> = {
           "Uncompromising Quality: We dedicate ourselves to selecting only the finest harvests, processed with heritage methods to lock in the richness of flavor and aroma.",
         listItem3:
           "Respect for Nature and People: We build fair partnerships with our local farmers, preserving nature, and celebrating the communities that are the backbone of this heritage.",
+        // UPDATE: Menggunakan gambar lokal
         image:
-          "https://images.pexels.com/photos/725997/pexels-photo-725997.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/about/about.png",
       },
       section2: {
         visionTitle: "Our Vision",
@@ -998,7 +999,7 @@ const contentData: Record<Language, Content> = {
         tags: ["Tips", "Gourmet"],
         image: "https://picsum.photos/id/727/600/400",
         content:
-          "Elevate your coffee and baking experience with the exotic touch of cardamom. Learn how to choose and store it properly to preserve its luxurious aroma.\n\nOften called the 'Queen of Spices,' green cardamom has a complex flavor profile—slightly citrusy, minty, and floral. Just a few pods are enough to transform a cup of black coffee into a luxurious Middle Eastern beverage or to give an exotic touch to your butter cookie dough.\n\nTo preserve its volatile aroma, the best cardamom is sold in whole pods. Open the pod and grind the small black seeds inside just before use to release their full flavor potential. Our cardamom comes from Sumatra, hand-picked and carefully dried to maintain its aroma and color integrity.",
+          "Elevate your coffee and baking experience with the exotic touch of cardamom. Learn how to choose and store it properly to preserve its luxurious aroma.\n\nOften called the 'Queen of Spices,' green cardamom has a complex flavor profile—slightly citrusy, minty, and floral. Just a few pods are enough to transform a cup of black coffee into a luxurious Middle Eastern beverage or to add a magical touch to biryani dishes and sweet pastries.\n\nTo preserve its volatile aroma, the best cardamom is sold in whole pods. Open the pod and grind the small black seeds inside just before use to release their full flavor potential. Our cardamom comes from Sumatra, hand-picked and carefully dried to maintain its aroma and color integrity.",
       },
       {
         id: 8,

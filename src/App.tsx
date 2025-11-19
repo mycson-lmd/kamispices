@@ -27,9 +27,11 @@ import {
 type Page = "home" | "about" | "products" | "blog" | "contact";
 
 // ===================================================================================
-// CATATAN UNTUK ANDA:
-// Pastikan file video Anda (misalnya, "hero-video.mp4") berada di dalam folder /assets
+// PENTING: KONFIGURASI ASET
+// Semua aset diambil dari CDN GitHub (jsdelivr) sesuai permintaan.
+// Pastikan Anda telah melakukan push folder 'assets' ke GitHub.
 // ===================================================================================
+
 const HERO_VIDEO_URL =
   "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/intro/video-hero.mp4";
 const FALLBACK_IMAGE_URL =
