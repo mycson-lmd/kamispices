@@ -421,7 +421,8 @@ const contentData: Record<Language, Content> = {
         readingTime: "5 menit",
         category: "Sejarah",
         tags: ["Sejarah", "Rempah"],
-        image: "https://picsum.photos/id/121/600/400",
+        image:
+          "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/blog/sejarah-cengkeh.png?v=1",
         content:
           "Jelajahi sejarah menarik cengkeh, rempah berharga yang membentuk rute perdagangan global dan menempatkan Kepulauan Maluku di peta dunia. Selama berabad-abad, rempah ini lebih berharga daripada emas dan menjadi pemicu ekspedisi besar-besaran oleh bangsa Eropa.\n\nSelain nilai historisnya, cengkeh adalah jantung dari industri rokok kretek khas Indonesia, memberikan aroma dan sensasi hangat yang unik. Minyak cengkeh juga telah lama dimanfaatkan dalam pengobatan tradisional sebagai antiseptik dan pereda nyeri, terutama untuk sakit gigi, membuktikan fleksibilitasnya yang luar biasa.\n\nDi KAMI SPICES, kami memilih cengkeh dari Ternate dan Tidore, dipetik saat kuncup bunga mencapai warna merah jambu yang sempurna dan dikeringkan di bawah sinar matahari tropis. Proses ini memastikan kandungan eugenol yang tinggi, menghasilkan kualitas aroma dan rasa yang superior untuk setiap kebutuhan, dari kuliner hingga farmasi.",
       },
@@ -433,7 +434,8 @@ const contentData: Record<Language, Content> = {
         readingTime: "7 menit",
         category: "Kuliner",
         tags: ["Kuliner", "Tips"],
-        image: "https://picsum.photos/id/222/600/400",
+        image:
+          "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/blog/masak-kayu-manis.png?v=1",
         content:
           "Pelajari cara menggunakan kayu manis tidak hanya pada hidangan manis, tetapi juga untuk memperkaya rasa hidangan gurih seperti kari dan semur. Kehangatan khasnya dapat menyeimbangkan rasa dan menambah kedalaman yang kompleks pada berbagai masakan.\n\nTerdapat dua jenis utama kayu manis: Cassia yang lebih pedas dan umum ditemukan, serta Ceylon atau 'kayu manis sejati' yang memiliki rasa lebih lembut dan manis. Memahami perbedaan ini adalah kunci untuk menciptakan harmoni rasa yang pas, baik dalam semur daging yang kaya maupun dalam secangkir kopi pagi yang hangat.\n\nKayu manis tidak hanya memanjakan lidah, tetapi juga dikenal memiliki berbagai manfaat kesehatan, termasuk mengatur gula darah dan sebagai anti-inflamasi. Kami menghadirkan kayu manis Cassia dari Kerinci, Sumatera, yang terkenal dengan kulitnya yang tebal dan kandungan minyak atsiri yang kaya, menjanjikan kehangatan dalam setiap serpihannya.",
       },
@@ -445,7 +447,8 @@ const contentData: Record<Language, Content> = {
         readingTime: "6 menit",
         category: "Edukasi",
         tags: ["Fakta", "Rempah"],
-        image: "https://picsum.photos/id/323/600/400",
+        image:
+          "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/blog/fakta-lada-hitam.png?v=1",
         content:
           "Mengapa lada hitam begitu dihargai sepanjang sejarah hingga dijuluki \"Raja Rempah\"? Jawabannya terletak pada rasa pedasnya yang tajam dan kemampuannya untuk meningkatkan cita rasa hampir semua hidangan di dunia.\n\nJulukan 'Raja Rempah' bukan tanpa alasan. Piperin, senyawa aktif dalam lada hitam, tidak hanya memberikan rasa pedas yang khas tetapi juga meningkatkan penyerapan nutrisi lain, seperti kurkumin dalam kunyit. Inilah mengapa lada hitam sering menjadi pasangan tak terpisahkan dari rempah lain dalam berbagai racikan bumbu.\n\nLada hitam Lampung dari KAMI SPICES dipanen saat buah beri masih hijau kekuningan, lalu dijemur hingga kulitnya mengerut dan menghitam. Proses alami ini mengunci ketajaman rasa dan aroma buah yang menjadi ciri khasnya, menjadikannya pilihan utama para koki untuk memberikan sentuhan akhir yang berani pada hidangan mereka.",
       },
@@ -457,7 +460,8 @@ const contentData: Record<Language, Content> = {
         readingTime: "5 menit",
         category: "Kesehatan",
         tags: ["Kesehatan", "Tradisi"],
-        image: "https://picsum.photos/id/424/600/400",
+        image:
+          "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/blog/manfaat-kunyit.png?v=1",
         content:
           "Dari bumbu dapur hingga ramuan penyembuh, kunyit adalah harta karun Indonesia. Pelajari lebih dalam tentang kekuatan kurkumin, senyawa aktif yang memberikan warna kuning cerah dan segudang manfaat bagi kesehatan.\n\nKurkumin adalah senyawa bioaktif yang menjadi pusat perhatian karena sifat antioksidan dan anti-inflamasinya yang kuat. Secara tradisional, kunyit digunakan dalam ramuan jamu untuk menjaga kebugaran dan kecantikan, sebuah warisan kearifan lokal yang kini diakui oleh sains modern.\n\nUntuk mendapatkan warna dan khasiat terbaik, kami memilih kunyit dari petani di Jawa Tengah yang menanamnya secara organik. Rimpang dibersihkan, diiris tipis, dikeringkan, dan digiling menjadi bubuk halus, memastikan kemurnian 100% tanpa bahan tambahan, sehingga Anda mendapatkan esensi emas kuning Indonesia seutuhnya.",
       },
@@ -469,7 +473,8 @@ const contentData: Record<Language, Content> = {
         readingTime: "7 menit",
         category: "Edukasi",
         tags: ["Edukasi", "Pala"],
-        image: "https://picsum.photos/id/525/600/400",
+        image:
+          "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/blog/pala-dan-fuli.png?v=1",
         content:
           "Satu pohon, dua rempah berharga. Pahami perbedaan antara biji pala dan fuli serta cara terbaik menggunakannya dalam masakan. Meskipun berasal dari pohon yang sama, keduanya memiliki profil rasa yang sangat berbeda.\n\nBiji pala, dengan rasanya yang manis dan hangat, sangat cocok untuk hidangan krim, saus, dan kue. Di sisi lain, fuli—selaput yang menyelimuti biji—memiliki aroma yang lebih lembut dan sedikit pedas, sering digunakan dalam hidangan yang lebih ringan seperti kaldu dan olahan ikan. Menguasai keduanya akan membuka dimensi baru dalam palet rasa Anda.\n\nKepulauan Banda adalah rumah spiritual pala dan fuli, tempat pohon-pohon pala tumbuh subur di bawah naungan pohon kenari. Kami bekerja sama dengan komunitas lokal untuk melestarikan metode panen tradisional, di mana buah yang matang dipetik dengan tangan untuk memastikan hanya kualitas terbaik yang sampai ke tangan Anda.",
       },
@@ -481,7 +486,8 @@ const contentData: Record<Language, Content> = {
         readingTime: "6 menit",
         category: "Kesehatan",
         tags: ["Kuliner", "Kesehatan"],
-        image: "https://picsum.photos/id/626/600/400",
+        image:
+          "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/blog/wedang-jahe.png?v=1",
         content:
           "Jelajahi berbagai jenis jahe di Indonesia dan temukan resep minuman jahe yang dapat meningkatkan imunitas Anda. Rimpang yang sederhana ini menyimpan kekuatan luar biasa untuk menghangatkan tubuh dan menjaga kesehatan.\n\nIndonesia mengenal beberapa jenis jahe, seperti jahe gajah yang besar dan tidak terlalu pedas, jahe emprit yang kecil namun pedas menyengat, dan jahe merah yang memiliki kandungan minyak atsiri tertinggi. Setiap jenis memiliki peranannya sendiri, mulai dari bahan utama wedang jahe hingga bumbu dasar masakan tumis.\n\nJahe tidak hanya menghangatkan tubuh, tetapi juga membantu meredakan mual dan melancarkan pencernaan. Kami memilih jahe emprit dari dataran tinggi Jawa Barat, di mana udara sejuk dan tanah gembur menghasilkan rimpang dengan tingkat kepedasan dan kesegaran aroma yang optimal.",
       },
@@ -493,7 +499,8 @@ const contentData: Record<Language, Content> = {
         readingTime: "5 menit",
         category: "Kuliner",
         tags: ["Tips", "Gourmet"],
-        image: "https://picsum.photos/id/727/600/400",
+        image:
+          "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/blog/kopi-kapulaga.png?v=1",
         content:
           "Tingkatkan pengalaman minum kopi dan membuat kue Anda dengan sentuhan eksotis kapulaga. Pelajari cara memilih dan menyimpannya agar aroma mewahnya tetap terjaga.\n\nSering disebut 'Ratu Rempah', kapulaga hijau memiliki profil rasa yang kompleks—sedikit sitrus, mint, dan floral. Beberapa butir saja cukup untuk mengubah secangkir kopi hitam menjadi minuman khas Timur Tengah yang mewah atau memberikan sentuhan eksotis pada adonan kue mentega Anda.\n\nUntuk menjaga aromanya yang mudah menguap, kapulaga terbaik adalah yang dijual dalam bentuk polong utuh. Buka polongnya dan giling biji hitam kecil di dalamnya sesaat sebelum digunakan untuk melepaskan potensi rasa sepenuhnya. Kapulaga kami berasal dari Sumatera, dipanen dengan tangan dan dikeringkan secara hati-hati untuk menjaga keutuhan aroma dan warnanya.",
       },
@@ -505,7 +512,8 @@ const contentData: Record<Language, Content> = {
         readingTime: "8 menit",
         category: "Sejarah",
         tags: ["Sejarah", "Vanili"],
-        image: "https://picsum.photos/id/828/600/400",
+        image:
+          "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/blog/bunga-vanili.png?v=1",
         content:
           "Vanili adalah salah satu rempah termahal di dunia. Ikuti perjalanannya dari perkebunan di Indonesia hingga menjadi favorit global dalam dunia pastri dan parfum.\n\nProses penanaman dan pengolahan vanili sangat padat karya. Bunga anggreknya harus diserbuki secara manual, dan polongnya melalui proses pengeringan dan fermentasi yang panjang dan rumit selama berbulan-bulan. Proses inilah yang mengembangkan ratusan senyawa aromatik, menciptakan rasa vanila yang kaya dan kompleks yang tidak bisa ditiru oleh esens sintetis.\n\nKAMI SPICES menghadirkan polong vanili Planifolia dari petani di Jawa dan Bali. Polongnya panjang, montok, dan berminyak, dengan aroma manis dan sedikit sentuhan aroma kayu yang dalam. Setiap polong adalah hasil kesabaran dan dedikasi, sebuah kemewahan sejati yang siap menyempurnakan kreasi adiboga Anda.",
       },
@@ -924,7 +932,8 @@ const contentData: Record<Language, Content> = {
         readingTime: "5 min read",
         category: "History",
         tags: ["History", "Spices"],
-        image: "https://picsum.photos/id/121/600/400",
+        image:
+          "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/blog/sejarah-cengkeh.png?v=1",
         content:
           "Explore the fascinating history of cloves, the prized spice that shaped global trade routes and put the Maluku Islands on the world map. For centuries, this spice was more valuable than gold and triggered massive expeditions by European nations.\n\nBeyond its historical value, the clove is the heart of Indonesia's unique kretek cigarette industry, providing its signature aroma and warming sensation. Clove oil has also long been used in traditional medicine as an antiseptic and pain reliever, especially for toothaches, proving its incredible versatility.\n\nAt KAMI SPICES, we select cloves from Ternate and Tidore, picked when the flower buds reach a perfect pinkish-red hue and dried under the tropical sun. This process ensures a high eugenol content, resulting in superior quality of aroma and taste for every need, from culinary to pharmaceutical.",
       },
@@ -936,7 +945,8 @@ const contentData: Record<Language, Content> = {
         readingTime: "7 min read",
         category: "Culinary",
         tags: ["Culinary", "Tips"],
-        image: "https://picsum.photos/id/222/600/400",
+        image:
+          "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/blog/masak-kayu-manis.png?v=1",
         content:
           "Learn how to use cinnamon not just in sweet dishes, but also to enrich the flavors of savory meals like curries and stews. Its characteristic warmth can balance flavors and add complex depth to a variety of dishes.\n\nThere are two main types of cinnamon: the spicier and more common Cassia, and Ceylon or 'true cinnamon,' which has a milder, sweeter flavor. Understanding this difference is key to creating the right flavor harmony, whether in a rich meat stew or a warm morning cup of coffee.\n\nCinnamon not only pleases the palate but is also known for various health benefits, including regulating blood sugar and acting as an anti-inflammatory. We bring you Cassia cinnamon from Kerinci, Sumatra, renowned for its thick bark and rich essential oil content, promising warmth in every flake.",
       },
@@ -948,7 +958,8 @@ const contentData: Record<Language, Content> = {
         readingTime: "6 min read",
         category: "Education",
         tags: ["Facts", "Spices"],
-        image: "https://picsum.photos/id/323/600/400",
+        image:
+          "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/blog/fakta-lada-hitam.png?v=1",
         content:
           "Why has black pepper been so valued throughout history to be dubbed the \"King of Spices\"? The answer lies in its sharp, pungent flavor and its ability to enhance the taste of almost any dish in the world.\n\nThe title 'King of Spices' is not without reason. Piperine, the active compound in black pepper, not only provides its characteristic spiciness but also enhances the absorption of other nutrients, such as curcumin in turmeric. This is why black pepper is often an inseparable partner to other spices in various seasoning blends.\n\nLampung black pepper from KAMI SPICES is harvested when the berries are still yellowish-green, then sun-dried until their skin shrivels and turns black. This natural process locks in the sharpness of flavor and fruity aroma that are its hallmark, making it a top choice for chefs to add a bold finishing touch to their dishes.",
       },
@@ -960,7 +971,8 @@ const contentData: Record<Language, Content> = {
         readingTime: "5 min read",
         category: "Health",
         tags: ["Health", "Tradition"],
-        image: "https://picsum.photos/id/424/600/400",
+        image:
+          "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/blog/manfaat-kunyit.png?v=1",
         content:
           'From a kitchen spice to a healing remedy, turmeric is an Indonesian treasure. Learn more about the power of curcumin, the active compound that gives it its bright yellow color and a multitude of health benefits.\n\nCurcumin is a bioactive compound that is the center of attention for its powerful antioxidant and anti-inflammatory properties. Traditionally, turmeric is used in "jamu" tonics to maintain wellness and beauty, a legacy of local wisdom now recognized by modern science.\n\nTo obtain the best color and benefits, we select turmeric from farmers in Central Java who grow it organically. The rhizomes are cleaned, thinly sliced, dried, and ground into a fine powder, ensuring 100% purity with no additives, so you get the full essence of Indonesia\'s yellow gold.',
       },
@@ -972,7 +984,8 @@ const contentData: Record<Language, Content> = {
         readingTime: "7 min read",
         category: "Education",
         tags: ["Education", "Nutmeg"],
-        image: "https://picsum.photos/id/525/600/400",
+        image:
+          "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/blog/pala-dan-fuli.png?v=1",
         content:
           "One tree, two precious spices. Understand the difference between nutmeg and mace and the best ways to use them in your cooking. Although they come from the same tree, they have distinctly different flavor profiles.\n\nNutmeg, with its sweet and warm taste, is perfect for creamy dishes, sauces, and pastries. On the other hand, mace—the lacy covering of the seed—has a more delicate and slightly peppery aroma, often used in lighter dishes like broths and fish preparations. Mastering both will open a new dimension in your flavor palette.\n\nThe Banda Islands are the spiritual home of nutmeg and mace, where nutmeg trees thrive under the shade of kenari trees. We work with local communities to preserve traditional harvesting methods, where ripe fruits are hand-picked to ensure only the best quality reaches you.",
       },
@@ -984,7 +997,8 @@ const contentData: Record<Language, Content> = {
         readingTime: "6 min read",
         category: "Health",
         tags: ["Culinary", "Health"],
-        image: "https://picsum.photos/id/626/600/400",
+        image:
+          "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/blog/wedang-jahe.png?v=1",
         content:
           'Explore the different types of ginger in Indonesia and discover a ginger drink recipe that can boost your immunity. This humble rhizome holds incredible power to warm the body and maintain health.\n\nIndonesia has several types of ginger, such as the large and less spicy "gajah" ginger, the small but pungent "emprit" ginger, and the red ginger, which has the highest essential oil content. Each type has its role, from being the main ingredient in "wedang jahe" to the base spice for stir-fried dishes.\n\nGinger not only warms the body but also helps relieve nausea and improve digestion. We choose "emprit" ginger from the highlands of West Java, where the cool air and fertile soil produce rhizomes with optimal spiciness and fresh aroma.',
       },
@@ -996,7 +1010,8 @@ const contentData: Record<Language, Content> = {
         readingTime: "5 min read",
         category: "Culinary",
         tags: ["Tips", "Gourmet"],
-        image: "https://picsum.photos/id/727/600/400",
+        image:
+          "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/blog/kopi-kapulaga.png?v=1",
         content:
           "Elevate your coffee and baking experience with the exotic touch of cardamom. Learn how to choose and store it properly to preserve its luxurious aroma.\n\nOften called the 'Queen of Spices,' green cardamom has a complex flavor profile—slightly citrusy, minty, and floral. Just a few pods are enough to transform a cup of black coffee into a luxurious Middle Eastern beverage or to give an exotic touch to your butter cookie dough.\n\nTo preserve its volatile aroma, the best cardamom is sold in whole pods. Open the pod and grind the small black seeds inside just before use to release their full flavor potential. Our cardamom comes from Sumatra, hand-picked and carefully dried to maintain its aroma and color integrity.",
       },
@@ -1009,7 +1024,8 @@ const contentData: Record<Language, Content> = {
         readingTime: "8 min read",
         category: "History",
         tags: ["History", "Vanilla"],
-        image: "https://picsum.photos/id/828/600/400",
+        image:
+          "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/blog/bunga-vanili.png?v=1",
         content:
           "Vanilla is one of the most expensive spices in the world. Follow its journey from plantations in Indonesia to becoming a global favorite in the world of pastry and perfume.\n\nThe process of cultivating and processing vanilla is extremely labor-intensive. Its orchid flower must be hand-pollinated, and the pods undergo a long and complicated curing and fermentation process over several months. This process develops hundreds of aromatic compounds, creating the rich and complex vanilla flavor that synthetic essences cannot replicate.\n\nKAMI SPICES presents Planifolia vanilla beans from farmers in Java and Bali. The pods are long, plump, and oily, with a sweet and slightly deep woody aroma. Each pod is the result of patience and dedication, a true luxury ready to perfect your gourmet creations.",
       },
