@@ -22,6 +22,7 @@ import {
   BlogModal,
   GenericModal,
   LogoIcon,
+  InfiniteGallery,
 } from "./components";
 
 type Page = "home" | "about" | "products" | "blog" | "contact";
@@ -449,6 +450,14 @@ const AboutPage: React.FC<{ content: AboutPageContent }> = ({ content }) => {
             ))}
           </div>
         </div>
+      </section>
+
+      {/* Section: Infinite Gallery (New) */}
+      <section className="border-y border-copper/20">
+        <InfiniteGallery
+          images={content.gallerySection.images}
+          title={content.gallerySection.title}
+        />
       </section>
 
       {/* Section 3: Why Choose Us */}

@@ -61,6 +61,10 @@ export interface AboutPageContent {
     missionTitle: string;
     missions: { icon: string; title: string; text: string }[];
   };
+  gallerySection: {
+    title: string;
+    images: string[];
+  };
   section3: {
     title: string;
     subtitle: string;

@@ -86,12 +86,17 @@
                   transform: "translate(-600px, 600px)",
                 },
               },
+              "scroll-right": {
+                "0%": { transform: "translateX(-50%)" },
+                "100%": { transform: "translateX(0)" },
+              },
             },
             animation: {
               fadeIn: "fadeIn 1s ease-in-out forwards",
               fadeOut: "fadeOut 1s ease-in-out forwards",
               logoAnimateOut: "logoAnimateOut 5s ease-in-out forwards",
               textAnimateOut: "textAnimateOut 5s ease-in-out forwards",
+              "scroll-right": "scroll-right 40s linear infinite",
             },
             backgroundImage: {
               "copper-gradient-full":
@@ -186,6 +191,11 @@
       }
       .group:hover .product-card-frame::before {
         opacity: 1;
+      }
+
+      /* --- CUSTOM UTILITY FOR PAUSE ON HOVER --- */
+      .hover-pause:hover .animate-scroll-right {
+        animation-play-state: paused;
       }
 
       /* --- INTRO SCREEN ANIMATIONS (REVISED) --- */
