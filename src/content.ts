@@ -73,7 +73,7 @@ const contentData: Record<Language, Content> = {
         listItem3:
           "Penghormatan terhadap Alam dan Manusia: Kami membangun kemitraan yang adil dengan para petani lokal, menjaga kelestarian alam, dan merayakan komunitas yang menjadi tulang punggung warisan ini.",
         image:
-          "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/about/about.png",
+          "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/about/about.png?v=1",
       },
       section2: {
         visionTitle: "Visi Kami",
@@ -296,7 +296,7 @@ const contentData: Record<Language, Content> = {
         name: "Cengkeh",
         category: "Bunga",
         image:
-          "https://images.pexels.com/photos/6303796/pexels-photo-6303796.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/product/cengkeh.png?v=1",
         description:
           'Dijuluki "emas cokelat" dari Maluku, Cengkeh kami dipetik dengan tangan saat kuncupnya mencapai warna merah marun yang sempurna. Proses pengeringan alami di bawah sinar matahari tropis mengunci eugenol, senyawa yang memberikan aroma manis pedas yang intens dan rasa hangat yang mendalam.\n\nSetiap kuncup adalah janji kualitas, menghadirkan kehangatan otentik pada hidangan rendang, semur, hingga secangkir teh rempah Anda. Rasakan warisan Kepulauan Rempah dalam setiap butirnya.',
         details: [
@@ -311,7 +311,7 @@ const contentData: Record<Language, Content> = {
         name: "Kayu Manis",
         category: "Kulit Kayu",
         image:
-          "https://images.pexels.com/photos/277253/pexels-photo-277253.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/product/kayu-manis.png?v=1",
         description:
           "Dari lereng subur Kerinci di Sumatera, kami mempersembahkan Kayu Manis Cassia dengan kulit tebal yang kaya akan minyak atsiri. Aroma manis dan hangatnya yang khas adalah sentuhan sempurna untuk menyempurnakan kue, kopi, dan hidangan penutup Anda.\n\nTidak hanya untuk hidangan manis, kehangatannya yang lembut juga mampu menyeimbangkan dan memperkaya cita rasa kompleks dalam masakan gurih seperti kari dan gulai. Biarkan keajaiban kayu manis kami membangkitkan kehangatan dalam setiap sajian.",
         details: [
@@ -326,7 +326,7 @@ const contentData: Record<Language, Content> = {
         name: "Pala",
         category: "Biji",
         image:
-          "https://images.pexels.com/photos/5945733/pexels-photo-5945733.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/product/pala.png?v=1",
         description:
           "Harta karun dari Kepulauan Banda, tempat kelahiran Pala terbaik di dunia. Biji pala utuh kami dipilih dari buah yang matang sempurna, menawarkan profil rasa yang kompleks—hangat, pedas, dengan sedikit sentuhan musky yang mewah.\n\nPecahkan bijinya dan parut segar untuk melepaskan potensi aroma sepenuhnya ke dalam saus krim, sup, atau hidangan daging Anda. Pala kami bukan sekadar bumbu, melainkan sebuah perjalanan sensorik ke jantung sejarah rempah dunia.",
         details: [
@@ -341,7 +341,7 @@ const contentData: Record<Language, Content> = {
         name: "Lada Putih",
         category: "Biji",
         image:
-          "https://images.pexels.com/photos/10175510/pexels-photo-10175510.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/product/lada-putih.png?v=1",
         description:
           "Dikenal dunia dengan nama Muntok White Pepper, lada putih kami berasal dari Pulau Bangka. Melalui proses perendaman dan pengupasan kulit yang teliti, kami menghasilkan lada dengan rasa yang halus namun tajam menusuk, serta aroma bersahaja yang bersih.\n\nSempurna untuk hidangan yang membutuhkan kepedasan tanpa mengubah warna, seperti saus krim, hidangan laut, dan masakan Eropa klasik. Tingkatkan kreasi kuliner Anda dengan sentuhan elegan dari lada putih premium kami.",
         details: [
@@ -356,7 +356,7 @@ const contentData: Record<Language, Content> = {
         name: "Lada Hitam",
         category: "Biji",
         image:
-          "https://images.pexels.com/photos/1435896/pexels-photo-1435896.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/product/lada-hitam.png?v=1",
         description:
           'Inilah "Raja Rempah" dari tanah subur Lampung. Lada hitam kami dipetik saat buah beri mencapai tingkat kematangan yang tepat, lalu dijemur secara alami hingga kulitnya mengerut dan menghitam. Proses ini mengunci piperin, senyawa yang memberikan rasa pedas yang kuat dan aroma tajam dengan sedikit sentuhan fruity.\n\nGiling segar di atas steak, sup, atau hidangan panggang untuk melepaskan ledakan rasa yang tak tertandingi. Rasakan kekuatan dan karakter asli lada hitam terbaik Indonesia.',
         details: [
@@ -371,7 +371,7 @@ const contentData: Record<Language, Content> = {
         name: "Kunyit",
         category: "Rimpang",
         image:
-          "https://images.pexels.com/photos/8963459/pexels-photo-8963459.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/product/kunyit.png?v=1",
         description:
           'Diambil dari rimpang pilihan dari tanah subur Jawa Tengah, Kunyit kami adalah perwujudan "emas kuning" Indonesia. Warna keemasannya yang cerah dan alami menandakan kandungan kurkumin yang tinggi, senyawa bioaktif yang terkenal akan manfaat kesehatannya yang luar biasa.\n\nAromanya yang khas, bersahaja dengan sedikit sentuhan pahit, memberikan kedalaman rasa yang tak tergantikan pada hidangan kari, soto, hingga ramuan jamu tradisional. Biarkan kemurnian kunyit kami mengubah masakan Anda menjadi sebuah mahakarya kuliner yang otentik dan menyehatkan.',
         details: [
@@ -386,7 +386,7 @@ const contentData: Record<Language, Content> = {
         name: "Jahe",
         category: "Rimpang",
         image:
-          "https://images.pexels.com/photos/2329434/pexels-photo-2329434.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/product/jahe.png?v=1",
         description:
           "Jahe emprit pilihan dari dataran tinggi Jawa Barat, dikenal dengan rasa pedas yang kuat dan aroma yang menyegarkan. Setiap rimpang menyimpan kehangatan alami yang sempurna untuk minuman tradisional, bumbu tumis, atau sebagai sentuhan rahasia pada kue Anda.\n\nRasakan kesegaran dan kekuatan jahe asli Indonesia yang tidak hanya menghangatkan tubuh tetapi juga membangkitkan selera makan.",
         details: [
@@ -401,13 +401,13 @@ const contentData: Record<Language, Content> = {
         name: "Kapulaga",
         category: "Biji",
         image:
-          "https://images.pexels.com/photos/6072101/pexels-photo-6072101.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/product/kapulaga.png?v=1",
         description:
           'Sering dijuluki "Ratu Rempah", kapulaga hijau kami dari Sumatera memiliki aroma floral dan minty yang sangat eksotis. Beberapa butir saja cukup untuk mengubah secangkir kopi hitam menjadi minuman mewah khas Timur Tengah atau memberikan sentuhan magis pada hidangan biryani dan kue-kue manis.\n\nBuka polongnya sesaat sebelum digunakan untuk melepaskan seluruh potensi aromanya. Biarkan kapulaga kami membawa Anda ke dunia rasa yang elegan dan tak terlupakan.',
         details: [
           "Asal: Sumatera Utara, Indonesia",
           "Tingkat Kualitas: Premium Green",
-          "Aroma: Complex, sweet, floral",
+          "Aroma: Kompleks, manis, floral",
           "Penggunaan: Kopi Arab, biryani, hidangan penutup",
         ],
       },
@@ -575,9 +575,8 @@ const contentData: Record<Language, Content> = {
           "Uncompromising Quality: We dedicate ourselves to selecting only the finest harvests, processed with heritage methods to lock in the richness of flavor and aroma.",
         listItem3:
           "Respect for Nature and People: We build fair partnerships with our local farmers, preserving nature, and celebrating the communities that are the backbone of this heritage.",
-        // UPDATE: Menggunakan gambar lokal
         image:
-          "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/about/about.png",
+          "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/about/about.png?v=1",
       },
       section2: {
         visionTitle: "Our Vision",
@@ -800,7 +799,7 @@ const contentData: Record<Language, Content> = {
         name: "Clove",
         category: "Flower Bud",
         image:
-          "https://images.pexels.com/photos/6303796/pexels-photo-6303796.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/product/cengkeh.png?v=1",
         description:
           'Dubbed the "brown gold" of Maluku, our Cloves are hand-picked when their buds reach a perfect maroon-red hue. The natural sun-drying process under the tropical sun locks in eugenol, the compound that delivers an intense sweet-spicy aroma and a profound warming taste.\n\nEach bud is a promise of quality, bringing authentic warmth to your rendang, stews, or even a cup of spiced tea. Experience the legacy of the Spice Islands in every single bud.',
         details: [
@@ -815,7 +814,7 @@ const contentData: Record<Language, Content> = {
         name: "Cinnamon",
         category: "Bark",
         image:
-          "https://images.pexels.com/photos/277253/pexels-photo-277253.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/product/kayu-manis.png?v=1",
         description:
           "From the fertile slopes of Kerinci in Sumatra, we present Cassia Cinnamon with a thick bark rich in essential oils. Its signature sweet and warm aroma is the perfect touch to elevate your pastries, coffee, and desserts.\n\nNot just for sweets, its gentle warmth can also balance and enrich the complex flavors in savory dishes like curries and goulash. Let the magic of our cinnamon awaken warmth in every dish.",
         details: [
@@ -830,7 +829,7 @@ const contentData: Record<Language, Content> = {
         name: "Nutmeg",
         category: "Seed",
         image:
-          "https://images.pexels.com/photos/5945733/pexels-photo-5945733.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/product/pala.png?v=1",
         description:
           "A treasure from the Banda Islands, the birthplace of the world's finest Nutmeg. Our whole nutmeg seeds are selected from perfectly ripened fruits, offering a complex flavor profile—warm, spicy, with a hint of luxurious musk.\n\nCrack open a seed and grate it fresh to release its full aromatic potential into your cream sauces, soups, or meat dishes. Our nutmeg is not just a spice; it's a sensory journey to the heart of the world's spice history.",
         details: [
@@ -845,7 +844,7 @@ const contentData: Record<Language, Content> = {
         name: "White Pepper",
         category: "Seed",
         image:
-          "https://images.pexels.com/photos/10175510/pexels-photo-10175510.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/product/lada-putih.png?v=1",
         description:
           "Known worldwide as Muntok White Pepper, our white pepper originates from Bangka Island. Through a meticulous process of soaking and skin removal, we produce a pepper with a smooth yet sharp, piercing flavor and a clean, earthy aroma.\n\nIt is perfect for dishes that require pungency without altering the color, such as cream sauces, seafood dishes, and classic European cuisine. Elevate your culinary creations with the elegant touch of our premium white pepper.",
         details: [
@@ -860,7 +859,7 @@ const contentData: Record<Language, Content> = {
         name: "Black Pepper",
         category: "Seed",
         image:
-          "https://images.pexels.com/photos/1435896/pexels-photo-1435896.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/product/lada-hitam.png?v=1",
         description:
           'Behold the "King of Spices" from the fertile lands of Lampung. Our black pepper is harvested when the berries reach the right stage of maturity, then naturally sun-dried until their skins wrinkle and blacken. This process locks in piperine, the compound that delivers a powerful spicy flavor and a sharp aroma with a slightly fruity note.\n\nGrind it fresh over steaks, soups, or roasted dishes to unleash an unparalleled burst of flavor. Experience the true power and character of Indonesia\'s finest black pepper.',
         details: [
@@ -875,7 +874,7 @@ const contentData: Record<Language, Content> = {
         name: "Turmeric",
         category: "Rhizome",
         image:
-          "https://images.pexels.com/photos/8963459/pexels-photo-8963459.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/product/kunyit.png?v=1",
         description:
           'Sourced from select rhizomes in the fertile soil of Central Java, our Turmeric is the embodiment of Indonesia\'s "yellow gold." Its bright, natural golden color is a testament to its high curcumin content, the bioactive compound renowned for its incredible health benefits.\n\nIts distinctive earthy aroma with a slightly bitter hint provides an irreplaceable depth of flavor to curries, sotos, and traditional "jamu" tonics. Let the purity of our turmeric transform your cooking into an authentic and healthy culinary masterpiece.',
         details: [
@@ -890,13 +889,13 @@ const contentData: Record<Language, Content> = {
         name: "Ginger",
         category: "Rhizome",
         image:
-          "https://images.pexels.com/photos/2329434/pexels-photo-2329434.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/product/jahe.png?v=1",
         description:
-          'Select "emprit" ginger from the highlands of West Java, known for its strong spicy flavor and refreshing aroma. Each rhizome holds a natural warmth perfect for traditional beverages, stir-fry seasonings, or as a secret touch in your cakes.\n\nExperience the freshness and power of authentic Indonesian ginger that not only warms the body but also stimulates the appetite.',
+          'Selected "emprit" ginger from the highlands of West Java, known for its strong spicy taste and refreshing aroma. Each rhizome holds natural warmth perfect for traditional beverages, stir-fry seasoning, or as a secret touch to your cakes.\n\nExperience the freshness and power of authentic Indonesian ginger that not only warms the body but also stimulates the appetite.',
         details: [
           "Origin: West Java, Indonesia",
           "Quality Grade: Grade 1",
-          "Aroma: Fresh, pungent, citrus",
+          "Aroma: Fresh, spicy, citrusy",
           "Uses: Warm beverages, stir-fry seasoning, cakes",
         ],
       },
@@ -905,9 +904,9 @@ const contentData: Record<Language, Content> = {
         name: "Cardamom",
         category: "Seed",
         image:
-          "https://images.pexels.com/photos/6072101/pexels-photo-6072101.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/product/kapulaga.png?v=1",
         description:
-          'Often dubbed the "Queen of Spices," our green cardamom from Sumatra has a highly exotic floral and minty aroma. Just a few pods are enough to transform a cup of black coffee into a luxurious Middle Eastern beverage or to add a magical touch to biryani dishes and sweet pastries.\n\nOpen the pods just before use to release their full aromatic potential. Let our cardamom take you to an elegant and unforgettable world of flavor.',
+          'Often called the "Queen of Spices", our green cardamom from Sumatra has a very exotic floral and minty aroma. Just a few grains are enough to transform a cup of black coffee into a luxurious Middle Eastern drink or give a magical touch to biryani dishes and sweet cakes.\n\nOpen the pods just before use to release their full aromatic potential. Let our cardamom take you into a world of elegant and unforgettable flavors.',
         details: [
           "Origin: North Sumatra, Indonesia",
           "Quality Grade: Premium Green",
@@ -999,7 +998,7 @@ const contentData: Record<Language, Content> = {
         tags: ["Tips", "Gourmet"],
         image: "https://picsum.photos/id/727/600/400",
         content:
-          "Elevate your coffee and baking experience with the exotic touch of cardamom. Learn how to choose and store it properly to preserve its luxurious aroma.\n\nOften called the 'Queen of Spices,' green cardamom has a complex flavor profile—slightly citrusy, minty, and floral. Just a few pods are enough to transform a cup of black coffee into a luxurious Middle Eastern beverage or to add a magical touch to biryani dishes and sweet pastries.\n\nTo preserve its volatile aroma, the best cardamom is sold in whole pods. Open the pod and grind the small black seeds inside just before use to release their full flavor potential. Our cardamom comes from Sumatra, hand-picked and carefully dried to maintain its aroma and color integrity.",
+          "Elevate your coffee and baking experience with the exotic touch of cardamom. Learn how to choose and store it properly to preserve its luxurious aroma.\n\nOften called the 'Queen of Spices,' green cardamom has a complex flavor profile—slightly citrusy, minty, and floral. Just a few pods are enough to transform a cup of black coffee into a luxurious Middle Eastern beverage or to give an exotic touch to your butter cookie dough.\n\nTo preserve its volatile aroma, the best cardamom is sold in whole pods. Open the pod and grind the small black seeds inside just before use to release their full flavor potential. Our cardamom comes from Sumatra, hand-picked and carefully dried to maintain its aroma and color integrity.",
       },
       {
         id: 8,

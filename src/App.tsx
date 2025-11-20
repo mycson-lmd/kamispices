@@ -30,12 +30,14 @@ type Page = "home" | "about" | "products" | "blog" | "contact";
 // PENTING: KONFIGURASI ASET
 // Semua aset diambil dari CDN GitHub (jsdelivr) sesuai permintaan.
 // Pastikan Anda telah melakukan push folder 'assets' ke GitHub.
+//
+// UPDATE: Menambahkan ?v=2 pada video untuk mem-bypass cache CDN (Cache Busting)
 // ===================================================================================
 
 const HERO_VIDEO_URL =
-  "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/intro/video-hero.mp4";
+  "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/intro/video-hero.mp4?v=2";
 const FALLBACK_IMAGE_URL =
-  "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/intro/hero-main.png";
+  "https://cdn.jsdelivr.net/gh/mycson-lmd/kamispices@main/assets/intro/hero-main.png?v=1";
 
 // --- Page Components ---
 
